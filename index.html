@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/main__icon.png" type="image/png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">    
+    
+    <link rel="stylesheet" href="style/main.css">
+    <title>travel</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__top__info__logo">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="51px" style="
+                              width: 66px;
+                          "><defs> <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="48px" height="51px">     <feoffset in="SourceAlpha" dx="0" dy="1"></feoffset>     <fegaussianblur result="blurOut" stdDeviation="0"></fegaussianblur>     <feflood flood-color="rgb(255, 255, 255)" result="floodOut"></feflood>     <fecomposite operator="atop" in="floodOut" in2="blurOut"></fecomposite>     <fecomponenttransfer><fefunca type="linear" slope="1"></fefunca></fecomponenttransfer>     <femerge>     <femergenode></femergenode>     <femergenode in="SourceGraphic"></femergenode> </femerge> </filter> <lineargradient id="PSgrad_0" x1="0%" x2="52.992%" y1="84.805%" y2="0%"> <stop offset="0%" stop-color="rgb(0,0,0)" stop-opacity="0.3"></stop> <stop offset="100%" stop-color="rgb(255,255,255)" stop-opacity="0.3"></stop> </lineargradient> </defs> <g filter="url(#Filter_0)"> <path fill-rule="evenodd" fill="rgb(128, 56, 194)" d="M44.495,36.070 L46.059,46.941 C46.193,47.868 45.818,48.811 45.083,49.401 C44.602,49.787 43.995,50.000 43.374,50.000 C43.055,50.000 42.743,49.946 42.445,49.838 L32.010,46.087 C29.469,46.976 26.807,47.426 24.086,47.426 C16.770,47.426 9.714,44.082 5.211,38.480 C1.223,33.520 -0.573,27.321 0.154,21.024 C0.882,14.727 4.046,9.087 9.064,5.144 C13.285,1.827 18.580,-0.000 23.974,-0.000 C31.353,-0.000 38.209,3.264 42.783,8.954 C49.063,16.764 49.727,27.598 44.495,36.070 ZM38.537,12.291 C34.997,7.888 29.691,5.362 23.977,5.362 C19.743,5.362 15.753,6.738 12.440,9.342 C8.556,12.394 6.107,16.759 5.543,21.633 C4.980,26.506 6.370,31.304 9.457,35.144 C12.943,39.478 18.408,42.066 24.076,42.067 C24.076,42.067 24.077,42.067 24.077,42.067 C26.432,42.067 28.725,41.632 30.893,40.774 C31.424,40.566 32.002,40.527 32.546,40.659 C32.764,40.681 32.979,40.730 33.188,40.804 L40.052,43.272 L39.072,36.459 C38.775,35.655 38.883,34.744 39.373,34.030 C43.957,27.351 43.621,18.614 38.537,12.291 ZM21.761,14.274 C18.358,15.762 15.747,18.618 14.597,22.109 C14.232,23.217 13.196,23.960 12.019,23.960 C11.732,23.960 11.449,23.915 11.175,23.827 C10.490,23.606 9.929,23.133 9.601,22.494 C9.272,21.856 9.215,21.129 9.439,20.448 C11.066,15.511 14.757,11.473 19.566,9.370 C19.913,9.217 20.283,9.140 20.664,9.140 C21.737,9.140 22.711,9.767 23.145,10.739 C23.749,12.089 23.129,13.676 21.761,14.274 Z"></path> </g> <path fill="url(#PSgrad_0)" d="M44.495,36.070 L46.059,46.941 C46.193,47.868 45.818,48.811 45.083,49.401 C44.602,49.787 43.995,50.000 43.374,50.000 C43.055,50.000 42.743,49.946 42.445,49.838 L32.010,46.087 C29.469,46.976 26.807,47.426 24.086,47.426 C16.770,47.426 9.714,44.082 5.211,38.480 C1.223,33.520 -0.573,27.321 0.154,21.024 C0.882,14.727 4.046,9.087 9.064,5.144 C13.285,1.827 18.580,-0.000 23.974,-0.000 C31.353,-0.000 38.209,3.264 42.783,8.954 C49.063,16.764 49.727,27.598 44.495,36.070 ZM38.537,12.291 C34.997,7.888 29.691,5.362 23.977,5.362 C19.743,5.362 15.753,6.738 12.440,9.342 C8.556,12.394 6.107,16.759 5.543,21.633 C4.980,26.506 6.370,31.304 9.457,35.144 C12.943,39.478 18.408,42.066 24.076,42.067 C24.076,42.067 24.077,42.067 24.077,42.067 C26.432,42.067 28.725,41.632 30.893,40.774 C31.424,40.566 32.002,40.527 32.546,40.659 C32.764,40.681 32.979,40.730 33.188,40.804 L40.052,43.272 L39.072,36.459 C38.775,35.655 38.883,34.744 39.373,34.030 C43.957,27.351 43.621,18.614 38.537,12.291 ZM21.761,14.274 C18.358,15.762 15.747,18.618 14.597,22.109 C14.232,23.217 13.196,23.960 12.019,23.960 C11.732,23.960 11.449,23.915 11.175,23.827 C10.490,23.606 9.929,23.133 9.601,22.494 C9.272,21.856 9.215,21.129 9.439,20.448 C11.066,15.511 14.757,11.473 19.566,9.370 C19.913,9.217 20.283,9.140 20.664,9.140 C21.737,9.140 22.711,9.767 23.145,10.739 C23.749,12.089 23.129,13.676 21.761,14.274 Z"></path> </svg>
+                          <div class="header__top__info__logo__main">
+                              <h2 class="header__top__info__logo__title">travel</h2>
+                              
+                              <p class="header__top__info__logo__text">Get the advice you need about travel</p>
+                      </div>
+                  </div>
+
+                    <div class="header__top__place__and__header__top__search">
+                      <div class="header__top__place">
+                          <div class="header__top__place__links">
+                              <a href="http://vk.com/" class="header__top__place__links header__top__place__dropdown__text">Quicklinks</a>
+                              <i class="fas fa-map-marker-alt header__top__place__links__icon" aria-hidden="true"></i>
+                    </div>
+
+                          <div class="top__solid"></div>
+                              <div class="header__top__place__dropdowns">
+                                  <a href="http://vk.com/" class="header__top__place__dropdown header__top__place__dropdown__text">Select from dropdown</a>
+                                  <i class="fas fa-sort header__top__place__dropdown__icon" aria-hidden="true"></i>
+                            </div>
+
+                          </div>
+
+                          <form class="header__top__search">
+                              <input type="text" size="100px" class="header__type__search__input" placeholder="Search for somthing here">
+                              <button type="submit" class="header__top__search__button"><svg xmlns="http://www.w3.org/2000/svg" class="header__top__search__icon" width="24" height="24" viewBox="0 0 24 24"><path d="M23.822 20.88l-6.353-6.354c.93-1.465 1.467-3.2 1.467-5.059.001-5.219-4.247-9.467-9.468-9.467s-9.468 4.248-9.468 9.468c0 5.221 4.247 9.469 9.468 9.469 1.768 0 3.421-.487 4.839-1.333l6.396 6.396 3.119-3.12zm-20.294-11.412c0-3.273 2.665-5.938 5.939-5.938 3.275 0 5.94 2.664 5.94 5.938 0 3.275-2.665 5.939-5.94 5.939-3.274 0-5.939-2.664-5.939-5.939z"/></svg></button>
+                          </form>
+                </div> 
+            </div>
+
+            <div class="header__bottom">
+                    <i class="menu__bar fas fa-bars " id="menuBar"></i>
+                    
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu" id="nav">
+       
+            <div class="container">
+                    <ul class="menu__list menu__list__middle" id="menuItem">
+                            <li class="menu__list__item" id="sliderHeaderTravel">
+                                    <i class="fas fa-wifi menu__list__item__icon" aria-hidden="true"></i>
+                                <p class="menu__list__item__name">Travel Guide</p>
+    
+                            </li>
+    
+                            <li class="menu__list__item" id="sliderHeaderServices">
+                                    <i class="far fa-paper-plane menu__list__item__icon" aria-hidden="true"></i>
+                                <p class="menu__list__item__name">Services</p>
+    
+                            </li>
+    
+                            <li class="menu__list__item" id="sliderHeaderAbout">
+                                    <i class="far fa-address-card menu__list__item__icon" aria-hidden="true"></i>
+                                <p class="menu__list__item__name">About</p>
+    
+                            </li>
+    
+                            <li class="menu__list__item" id="sliderHeaderTour">
+                                    <i class="fas fa-map-marker-alt menu__list__item__icon" aria-hidden="true"></i>
+                                <p class="menu__list__item__name">The Tour</p>
+    
+                            </li>
+    
+                            <li class="menu__list__item" id="sliderHeaderHow">
+                                    <i class="fas fa-globe menu__list__item__icon" aria-hidden="true"></i>
+                                <p class="menu__list__item__name">How to</p>
+    
+                            </li>
+    
+                            <li class="menu__list__item" id="sliderHeaderContact">
+                                    <i class="fas fa-file-contract menu__list__item__icon" aria-hidden="true"></i>
+                                <p class="menu__list__item__name">Contact</p>
+    
+                            </li>
+    
+                        </ul>
+                        
+
+                    
+                </div>
+    </nav>
+                
+   
+                <section class="section section__slide__travelGuide" id="section__slide__travelGuide">
+                        
+                        
+                    
+                    <div class="container">
+                            
+                            <ul class="section__list" id="menuItemMiddle">
+                        
+                                    <li class="section__list__item" id="sliderHeaderTravel">
+                                            <i class="fas fa-wifi section__list__item__icon" aria-hidden="true"></i>
+                                        <p class="section__list__item__name">Travel Guide</p>
+            
+                                    </li>
+            
+                                    <li class="section__list__item" id="sliderHeaderServices">
+                                            <i class="far fa-paper-plane section__list__item__icon" aria-hidden="true"></i>
+                                        <p class="section__list__item__name">Services</p>
+            
+                                    </li>
+            
+                                    <li class="section__list__item" id="sliderHeaderAbout">
+                                            <i class="far fa-address-card section__list__item__icon" aria-hidden="true"></i>
+                                        <p class="section__list__item__name">About</p>
+            
+                                    </li>
+            
+                                    <li class="section__list__item" id="sliderHeaderTour">
+                                            <i class="fas fa-map-marker-alt section__list__item__icon" aria-hidden="true"></i>
+                                        <p class="section__list__item__name">The Tour</p>
+            
+                                    </li>
+            
+                                    <li class="section__list__item" id="sliderHeaderHow">
+                                            <i class="fas fa-globe section__list__item__icon" aria-hidden="true"></i>
+                                        <p class="section__list__item__name">How to</p>
+            
+                                    </li>
+            
+                                    <li class="section__list__item" id="sliderHeaderContact">
+                                            <i class="fas fa-file-contract section__list__item__icon" aria-hidden="true"></i>
+                                        <p class="section__list__item__name">Contact</p>
+            
+                                    </li>
+            
+                                </ul>
+
+                                <i class="fas fa-times" id="closeBar"></i>
+                            <div class="section__cirle" >
+                                <i class="fas fa-wifi header__cirle__icon           " id="sliderHeaderItemTravel" aria-hidden="true"></i>
+                                <i class="far fa-paper-plane header__cirle__icon    " id="sliderHeaderitemServices" aria-hidden="true"></i>
+                                <i class="far fa-address-card header__cirle__icon   " id="sliderHeaderitemAbout" aria-hidden="true"></i>
+                                <i class="fas fa-map-marker-alt header__cirle__icon " id="sliderHeaderitemTour" aria-hidden="true"></i>
+                                <i class="fas fa-globe header__cirle__icon    " id="sliderHeaderitemHow" aria-hidden="true"></i>
+                                <i class="fas fa-file-contract header__cirle__icon           " id="sliderHeaderitemContact" aria-hidden="true"></i>
+                            </div>
+                            
+                        </div>
+            
+                        
+                        </section>
+
+                        <section class="section__where" id="sectionWhere">
+                            <div class="container">
+                                <h2 class="sectiion__where__title">Anywhere, anytime, where here to help.</h2>
+                                <p class="section__where__intro">And we mean that.</p>
+
+                                <img class="section__where__map" src="img/Travler_03.webp" alt="img/Travler_03.png">
+
+                                <div class="section__where__info">
+                                    <div class="section__where__info__top">
+                                        <i class="far fa-clock section__where__info__top__icon" aria-hidden="true"></i> 
+                                        <div class="section__where__info__top__solid"> </div>
+                                        <i class="fas fa-cloud section__where__info__top__icon" aria-hidden="true"></i>
+                                        <div class="section__where__info__top__solid"></div>
+                                        <i class="fas fa-box-open section__where__info__top__icon" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+
+                                <div class="section__where__better">
+                                    <div class="section__where__better__colm">
+                                        <h3 class="section__wherer__better__colm__title">Save Time</h3>
+                                        <p class="section__better__colm__text">Lets throw a trackie dacks also it'll be gutta. You little ripper avos flamin lets throw a lizard drinking. Gutful of jug where as busy as a big smoke. Grab us a billy as cunning as a bull bar. As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a </p>
+                                    </div>
+                                    <div class="section__where__better__colm">
+                                        <h3 class="section__wherer__better__colm__title">Win over the team</h3>
+                                        <p class="section__better__colm__text">As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a strides also as cross as a thingo. 
+                                                Built like a old fella no dramas grab us a ten clicks away.
+                                                </p>
+                                    </div>
+                                    <div class="section__where__better__colm">
+                                        <h3 class="section__wherer__better__colm__title">Design Features</h3>
+                                        <p class="section__better__colm__text">Built like a old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.
+                                                A old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+
+                        <section class="section__where__lead" id="sectionWhereLead">
+                                <div class="container">
+                                        <img src="img/lead.webp" alt="img/lead.jpg" class="section__where__lead__img" style="width: 100% ;">
+                                        <h2 class="section__where__lead__title">A simple begining lead to big ideas</h2>
+                                        <p class="section__where__lead__intro">We started small but grew quickly.</p>
+                                    </div>
+                        </section>
+
+                        <section class="secton__team" id="sectionTeam">
+                            <div class="container">
+                                <div class="section__team__intro">
+                                    <div class="section__team__solid"></div>
+                                    <h2 class="section__team__title">A humble Team we are</h2>
+                                    <div class="section__team__solid"></div>
+                                </div>
+
+                                <p class="section__team__anaway">We’ll some of us anyways</p>
+
+                                <div class="secton__team__slider slider__item" style="display: flex;">
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/webp/Travler1.webp" alt="img/TeamSlider/Travler1.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                            <div class="secton__team__slider__item__info">
+                                                <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                                <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                            </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/webp/Travler2.webp" alt="img/TeamSlider/Travler2.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund ">
+                                        <img src="img/TeamSlider/webp/Travler3.webp" alt="img/TeamSlider/Travler3.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/webp/Travler4.webp" alt="img/TeamSlider/Travler4.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="secton__team__slider slider__item" style="display: none;">
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/travel__first/short/travel__1.webp" alt="img/TeamSlider/Travler1.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                            <div class="secton__team__slider__item__info">
+                                                <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                                <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                            </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/travel__first/short/travel__2.webp" alt="img/TeamSlider/Travler2.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund ">
+                                        <img src="img/TeamSlider/travel__first/short/travel__3.webp" alt="img/TeamSlider/Travler3.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/travel__first/short/travel__4.webp" alt="img/TeamSlider/Travler4.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="secton__team__slider slider__item" style="display: none;">
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/travel_second/short/travel_1.webp" alt="img/TeamSlider/Travler1.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                            <div class="secton__team__slider__item__info">
+                                                <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                                <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                            </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/travel_second/travel__2.jpg" alt="img/TeamSlider/Travler2.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund ">
+                                        <img src="img/TeamSlider/travel_second/short/travel_3.webp" alt="img/TeamSlider/Travler3.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/travel_second/travel_4.jpg" alt="img/TeamSlider/Travler4.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="secton__team__slider slider__item slider__employees__active" style="display: none;">
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/webp/Travler1.webp" alt="img/TeamSlider/Travler1.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                            <div class="secton__team__slider__item__info">
+                                                <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                                <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                            </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/webp/Travler2.webp" alt="img/TeamSlider/Travler2.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund ">
+                                        <img src="img/TeamSlider/webp/Travler3.webp" alt="img/TeamSlider/Travler3.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="secton__team__slider__item secton__team__slider__item__backgorund">
+                                        <img src="img/TeamSlider/webp/Travler4.webp" alt="img/TeamSlider/Travler4.png" class="secton__team__slider__item__image ">
+                                        <img src="img/TeamSlider/twitter.png" alt="img/TeamSlider/twitter.png" class="secton__team__slider__item__icons">
+                                        <div class="secton__team__slider__item__info">
+                                            <p class="secton__team__slider__item__info__name">Josh Jansen</p>
+                                            <p class="secton__team__slider__item__info__develop">Digital Producer</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="section__team__slider__variable slider-dots">
+                                    <div class="section__team__slider__variable__item slider-dots-item active" onclick="currentSlide(1)"></div>
+                                    <div class="section__team__slider__variable__item slider-dots-item" onclick="currentSlide(2)"></div>
+                                    <div class="section__team__slider__variable__item slider-dots-item" onclick="currentSlide(3)"></div>
+                                    <div class="section__team__slider__variable__item slider-dots-item" onclick="currentSlide(4)"></div>
+                                </div>
+
+
+                                <div class="section__team__blog">
+                                    <div class="section__team__blog__Columns">  
+                                        <div class="section__team__blog__Columns__half">
+                                            <div class="section__team__blog__Columns__half__add">+</div>
+                                            <h3 class="section__team__blog__Columns__half__title">Winning Design Awards</h3>
+                                            <p class="section__team__blog__Columns__half__intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim + 
+                                            </p>
+                                            <p class="section__team__blog__Columns__half__text">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+                                        </div>
+
+                                        <div class="section__team__blog__Columns__half">
+                                                <div class="section__team__blog__Columns__half__add">+</div>
+                                                <h3 class="section__team__blog__Columns__half__title">Winning Design Awards</h3>
+                                                <p class="section__team__blog__Columns__half__intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim + 
+                                                </p>
+                                                <p class="section__team__blog__Columns__half__text">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="section__team__blog__Columns">
+                                        <div class="section__team__blog__Columns__full">
+                                                <div class="section__team__blog__Columns__half__add">+</div>
+                                            <h3 class="section__team__blog__Columns__half__title">Winning Design Awards</h3>
+                                            <p class="section__team__blog__Columns__half__intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim + 
+                                                </p>
+                                                <p class="section__team__blog__Columns__half__text">Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </section>
+
+                        <footer class="footer" id="footer">
+
+                            <div class="container">
+                                <div class="footer__menu">
+                                    <div class="footer__menu__logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="51px"><defs> <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="48px" height="51px">     <feoffset in="SourceAlpha" dx="0" dy="1"></feoffset>     <fegaussianblur result="blurOut" stdDeviation="0"></fegaussianblur>     <feflood flood-color="rgb(255, 255, 255)" result="floodOut"></feflood>     <fecomposite operator="atop" in="floodOut" in2="blurOut"></fecomposite>     <fecomponenttransfer><fefunca type="linear" slope="1"></fefunca></fecomponenttransfer>     <femerge>     <femergenode></femergenode>     <femergenode in="SourceGraphic"></femergenode> </femerge> </filter> <lineargradient id="PSgrad_0" x1="0%" x2="52.992%" y1="84.805%" y2="0%"> <stop offset="0%" stop-color="rgb(0,0,0)" stop-opacity="0.3"></stop> <stop offset="100%" stop-color="rgb(255,255,255)" stop-opacity="0.3"></stop> </lineargradient> </defs> <g filter="url(#Filter_0)"> <path fill-rule="evenodd" fill="#fffff" d="M44.495,36.070 L46.059,46.941 C46.193,47.868 45.818,48.811 45.083,49.401 C44.602,49.787 43.995,50.000 43.374,50.000 C43.055,50.000 42.743,49.946 42.445,49.838 L32.010,46.087 C29.469,46.976 26.807,47.426 24.086,47.426 C16.770,47.426 9.714,44.082 5.211,38.480 C1.223,33.520 -0.573,27.321 0.154,21.024 C0.882,14.727 4.046,9.087 9.064,5.144 C13.285,1.827 18.580,-0.000 23.974,-0.000 C31.353,-0.000 38.209,3.264 42.783,8.954 C49.063,16.764 49.727,27.598 44.495,36.070 ZM38.537,12.291 C34.997,7.888 29.691,5.362 23.977,5.362 C19.743,5.362 15.753,6.738 12.440,9.342 C8.556,12.394 6.107,16.759 5.543,21.633 C4.980,26.506 6.370,31.304 9.457,35.144 C12.943,39.478 18.408,42.066 24.076,42.067 C24.076,42.067 24.077,42.067 24.077,42.067 C26.432,42.067 28.725,41.632 30.893,40.774 C31.424,40.566 32.002,40.527 32.546,40.659 C32.764,40.681 32.979,40.730 33.188,40.804 L40.052,43.272 L39.072,36.459 C38.775,35.655 38.883,34.744 39.373,34.030 C43.957,27.351 43.621,18.614 38.537,12.291 ZM21.761,14.274 C18.358,15.762 15.747,18.618 14.597,22.109 C14.232,23.217 13.196,23.960 12.019,23.960 C11.732,23.960 11.449,23.915 11.175,23.827 C10.490,23.606 9.929,23.133 9.601,22.494 C9.272,21.856 9.215,21.129 9.439,20.448 C11.066,15.511 14.757,11.473 19.566,9.370 C19.913,9.217 20.283,9.140 20.664,9.140 C21.737,9.140 22.711,9.767 23.145,10.739 C23.749,12.089 23.129,13.676 21.761,14.274 Z"></path> </g> <path fill="white" d="M44.495,36.070 L46.059,46.941 C46.193,47.868 45.818,48.811 45.083,49.401 C44.602,49.787 43.995,50.000 43.374,50.000 C43.055,50.000 42.743,49.946 42.445,49.838 L32.010,46.087 C29.469,46.976 26.807,47.426 24.086,47.426 C16.770,47.426 9.714,44.082 5.211,38.480 C1.223,33.520 -0.573,27.321 0.154,21.024 C0.882,14.727 4.046,9.087 9.064,5.144 C13.285,1.827 18.580,-0.000 23.974,-0.000 C31.353,-0.000 38.209,3.264 42.783,8.954 C49.063,16.764 49.727,27.598 44.495,36.070 ZM38.537,12.291 C34.997,7.888 29.691,5.362 23.977,5.362 C19.743,5.362 15.753,6.738 12.440,9.342 C8.556,12.394 6.107,16.759 5.543,21.633 C4.980,26.506 6.370,31.304 9.457,35.144 C12.943,39.478 18.408,42.066 24.076,42.067 C24.076,42.067 24.077,42.067 24.077,42.067 C26.432,42.067 28.725,41.632 30.893,40.774 C31.424,40.566 32.002,40.527 32.546,40.659 C32.764,40.681 32.979,40.730 33.188,40.804 L40.052,43.272 L39.072,36.459 C38.775,35.655 38.883,34.744 39.373,34.030 C43.957,27.351 43.621,18.614 38.537,12.291 ZM21.761,14.274 C18.358,15.762 15.747,18.618 14.597,22.109 C14.232,23.217 13.196,23.960 12.019,23.960 C11.732,23.960 11.449,23.915 11.175,23.827 C10.490,23.606 9.929,23.133 9.601,22.494 C9.272,21.856 9.215,21.129 9.439,20.448 C11.066,15.511 14.757,11.473 19.566,9.370 C19.913,9.217 20.283,9.140 20.664,9.140 C21.737,9.140 22.711,9.767 23.145,10.739 C23.749,12.089 23.129,13.676 21.761,14.274 Z"></path> </svg>
+                                        <div class="footer__menu__logo__intro">
+                                            <h2 class="footer__menu__logo__intro__title">travel</h2>
+                                            <p class="footer__menu__logo__intro__text">Get the advice you need about travel</p>
+                                        </div>
+                                    </div>
+
+                                    <ul class="footer__menu__list">
+                                        <li class="footer__menu__list__item footer__about__item__undexSolid"><a class="footer__menu__list__item__href footer__menu__list__verticalsolid fmlih__before" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">Portfolio</a></li>
+                                        <li class="footer__menu__list__item footer__about__item__undexSolid"><a class="footer__menu__list__item__href footer__menu__list__verticalsolid fmlih__before" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">Services</a></li>
+                                        <li class="footer__menu__list__item footer__about__item__undexSolid"><a class="footer__menu__list__item__href footer__menu__list__verticalsolid fmlih__before" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">Staff</a></li>
+                                        <li class="footer__menu__list__item footer__about__item__undexSolid"><a class="footer__menu__list__item__href footer__menu__list__verticalsolid fmlih__before" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">Articles</a></li>
+                                        <li class="footer__menu__list__item footer__about__item__undexSolid"><a class="footer__menu__list__item__href fmlih__before" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer__info">
+                                    <p class="footer__info__text">rent from punchy digger bloody gutful of mokkies. Get a dog up ya fair dinkum mate as cross as a flake. Stands out like a bluey flamin stands out like a pot. As stands out like christmas to grab us a ugg boots. She'll be right buckley's chance my as stands out like divvy van. It'll be smokes trent from punchy chewie. 
+                                        </p>
+
+                                    <ul class="footer__info__socilize">
+                                        <li class="footer__info__sozilize__item">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="12px" class="footer__info__sozilize__item__icon" fill="#ffffff" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+                                                <span class="footer__info__socilize__name">Twitter</span>
+                                        </li>
+                                        <li class="footer__info__sozilize__item">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="12px" class="footer__info__sozilize__item__icon" fill="#ffffff" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg>
+                                                <span class="footer__info__socilize__name">Facebook</span>
+                                        </li>
+                                        <li class="footer__info__sozilize__item">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="12px" class="footer__info__sozilize__item__icon" fill="#ffffff" viewBox="0 0 24 24"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"></path></svg>
+                                                <span class="footer__info__socilize__name">Rss</span>
+                                        </li>
+                                        <li class="footer__info__sozilize__item">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="12px" class="footer__info__sozilize__item__icon" fill="#ffffff" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"></path></svg>
+                                                <span class="footer__info__socilize__name">Email</span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <ul class="footer__about">
+                                        <li class="footer__about__item "><a class="footer__about__item" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">About us</a></li>
+                                        <li class="footer__about__item "><a class="footer__about__item" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">Footer Links her</a></li>
+                                        <li class="footer__about__item "><a class="footer__about__item" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">Privacy</a></li>
+                                        <li class="footer__about__item "><a class="footer__about__item" href="file:///B:/Work/portfolio/exemple/travel/http//vk.com">Icons by http://</a></li>
+                                    </ul>
+
+                                <p class="footer__under">
+                                        As cross as a hoon my built like a op shop. We're going bored sh*tless heaps she'll be right budgie smugglers. Grab us a durry mate she'll be right dunny rat. She'll be right larrikin with skite. As stands out like kero it'll be truckie.
+                                </p>
+                            </div>
+                        </footer>
+<!--mainEND (18:11/23.10.2019)-->
+    <script src="script/burgerMenu.js"></script>
+    <script src="script/header.js"></script>
+    <script src="script/slider.js"></script>   
+    <script src="https://kit.fontawesome.com/7809b5477a.js" crossorigin="anonymous"></script>
+</body></html>
